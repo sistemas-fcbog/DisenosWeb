@@ -1,0 +1,64 @@
+<style>
+    .marquee-container {
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        background: linear-gradient(to right, #2d741c, #4fb868); 
+        background-image: url('https://cdn.svgator.com/images/2022/06/use-svg-as-background-image-particle-strokes.svg'); 
+        background-size: cover; 
+        background-position: center; 
+        position: relative;
+    }
+
+    .marquee {
+        display: inline-block;
+        white-space: nowrap;
+        font-size: 24px;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        position: relative; padding: 5px;
+        animation: moveText 10s linear infinite;
+    }
+
+    @keyframes moveText {
+        from {
+            transform: translateX(-20%);
+        }
+        to {
+            transform: translateX(1%);
+        }
+    }
+
+    @keyframes verticalBounce {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(2px); } 
+    }
+
+    .marquee span {
+        display: inline-block;
+        animation: verticalBounce 1s ease-in-out infinite alternate;
+    }
+</style>
+
+<div class="marquee-container" id="marqueeContainer"></div>
+
+<script>
+    const texto = "Biología ";  
+    const container = document.getElementById("marqueeContainer");
+
+    let repeatText = " ";
+    for (let i = 0; i < 30; i++) { 
+        let randPaddingTop = Math.floor(Math.random() * 5);
+        let randPaddingBottom = Math.floor(Math.random() * 5);
+        let fontsFamily = ["Arial", "Verdana", "Helvetica", "Tahoma", "Trebuchet MS", "Times New Roman", "Georgia", "Garamond", "Courier New", "Brush Script MT"];
+        let randFontFamily = Math.floor(Math.random() * fontsFamily.length);
+        let randFontStyle = Math.floor(Math.random() * 5);
+        let fontStyles = ["normal", "italic", "oblique", "initial", "inherit"];
+        let randSize = Math.floor(Math.random() * 10) + 20;
+        randStyle = fontStyles[randFontStyle];
+        randFont = fontsFamily[randFontFamily];
+        repeatText += `<span style="font-size: ${randSize}px;font-style:${randStyle};font-family: ${randFont};padding: ${randPaddingTop}px 10px ${randPaddingBottom}px 10px ">${texto} </span>`;
+    }
+
+    container.innerHTML = `<div class="marquee">${repeatText}</div>`;
+</script>
