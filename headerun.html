@@ -409,7 +409,7 @@
 
             <script>
               var jsonNombreUAC = {
-                "biologia": {
+                "/biologia/": {
                   "nombre": "Biología",
                   "urls": [
                     {
@@ -633,6 +633,20 @@
                     {"nombre": "Laboratorios", "value": "/laboratorios/fisica"},
                     {"nombre": "Nuestros servicios", "value": "/servicios_de_laboratorios/nuestros_servicios/fisica"}
                   ]
+                },
+                "interfacultades":{
+                  "nombre": "Interfacultades",
+                  "urls": [
+                    {
+                      "nombreAgrupamiento": "Programas Académicos",
+                      "urls": [
+                        {"nombre": "Área Curricular de Interfacultades", "value": "/areas_curriculares/interfacultades"},
+                        {"nombre": "Maestría en Ciencias - Biotecnología", "value": "/estudiar_en_la_facultad/posgrados/maestrias/biotecnologia"},
+                        {"nombre": "Doctorado en Ciencias - Biotecnología", "value": "/estudiar_en_la_facultad/posgrados/doctorados/biotecnologia"},
+                        {"nombre": "Maestría en Ciencias - Microbiología",  "value" : "/estudiar_en_la_facultad/posgrados/maestrias/microbiologia/"}
+                      ]
+                    }
+                  ]
                 }
               };
 
@@ -642,6 +656,10 @@
               jsonNombreUAC["fisica_medica"] = jsonNombreUAC["fisica/"];
               jsonNombreUAC["observatorio_astronomico_nacional"] = jsonNombreUAC["astronomia"];
               jsonNombreUAC["ciencias_farmaceuticas"] = jsonNombreUAC["farmacia"];
+              jsonNombreUAC["farmacologia"] = jsonNombreUAC["farmacia"];
+              jsonNombreUAC["biotecnologia"] = jsonNombreUAC["interfacultades"];
+              jsonNombreUAC["bioquimica"] = jsonNombreUAC["interfacultades"];
+              jsonNombreUAC["microbiologia"]  = jsonNombreUAC["interfacultades"];
               var url = window.location.href;
 
               var arrayUAC= Object.keys(jsonNombreUAC);
