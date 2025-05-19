@@ -32,6 +32,15 @@
         padding: 10px 10px !important;
       }
     </style>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.animar-siempre').forEach(elemento => {
+        elemento.setAttribute('data-aos-once', 'false');
+        elemento.setAttribute('data-aos-anchor-placement', 'top-bottom');
+       elemento.setAttribute('data-aos-delay', '500');
+    });
+});
+</script>
 </head>
 <body>
     <head>
@@ -310,7 +319,7 @@
                 <div class="btn-group">
                   <div class="btn dropdown-toggle" data-toggle="dropdown">Investigación<span class="caret"></span></div>
                   <div class="dropdown-menu">
-                      <a class="dropdown-item" href="https://ciencias.bogota.unal.edu.co/laboratorios/" target="_self" rel="noopener">Laboratorios</a>
+                      <a class="dropdown-item" href="https://ciencias.bogota.unal.edu.co/dependencias/coordinacion_laboratorios/" target="_self" rel="noopener">Laboratorios</a>
                       <a class="dropdown-item" href="https://ciencias.bogota.unal.edu.co/grupos_de_investigacion/" target="_self" rel="noopener">Grupos de Investigación</a>                       
                   </div>
                 </div>
