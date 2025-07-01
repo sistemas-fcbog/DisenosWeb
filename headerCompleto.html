@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+
+    <style>
+      .btn-group:hover>.dropdown-menu {
+        display: block;
+        margin-top: 0;
+      }
+    
+      .dropdown-submenu:hover>.dropdown-menu {
+        display: block;
+        left: 100%;
+        top: 0;
+        position: absolute;
+      }
+
+      .justificado {
+        text-align: justify;
+      }
+    
+      div.dropdown-menu {
+        background: #333;
+        border-color: #222;
+        min-width: 100%;
+        padding: 10px 0px 10px 10px;
+        border-radius: 0px;
+      }
+    
+      div.dropdown-menu a, div.dropdown-menu button {
+        color: white;
+        padding: 10px 10px !important;
+      }
+    </style>
+    
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+          document.querySelectorAll('.animar-siempre').forEach(elemento => {
+              elemento.setAttribute('data-aos-once', 'false');
+              elemento.setAttribute('data-aos-anchor-placement', 'top-bottom');
+             elemento.setAttribute('data-aos-delay', '500');
+          });
+      });
+    </script>
+</head>
+<body>
+    <head>
+        <title>Facultad de Ciencias - Inicio</title> 
+      
+        <meta name="revisit-after" content="1 hour">
+        <meta name="distribution" content="all">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.5, user-scalable=yes">
+        <meta name="expires" content="1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="robots" content="all">
+      
+        <link rel="stylesheet" type="text/css" href="https://ciencias.bogota.unal.edu.co/wp-content/uploads/css/frontend.css" media="all">
+        <link rel="stylesheet" type="text/css" href="https://ciencias.bogota.unal.edu.co/wp-content/uploads/css/accesibilidad.css" media="all">
+        <link rel="stylesheet" type="text/css" href="https://ciencias.bogota.unal.edu.co/wp-content/uploads/css/bootstrap.min.css" media="all">
+        <link rel="stylesheet" type="text/css" href="https://ciencias.bogota.unal.edu.co/wp-content/uploads/css/bootstrap-theme.min.css" media="all">
+        <link rel="stylesheet" type="text/css" href="https://ciencias.bogota.unal.edu.co/wp-content/uploads/css/reset.css" media="all">
+        <link rel="stylesheet" type="text/css" href="https://ciencias.bogota.unal.edu.co/wp-content/uploads/css/unal.css" media="all">
+        <link rel="stylesheet" type="text/css" href="https://ciencias.bogota.unal.edu.co/wp-content/uploads/css/printer.css" media="print">
+      
+        <script src="https://ciencias.bogota.unal.edu.co/wp-content/uploads/js/jquery.js" type="text/javascript"></script>
+        <script src="https://ciencias.bogota.unal.edu.co/wp-content/uploads/js/unal.js" type="text/javascript"></script>
+        <script src="https://ciencias.bogota.unal.edu.co/wp-content/uploads/js/accesibilidad.js" type="text/javascript"></script>
+        <script src="https://ciencias.bogota.unal.edu.co/wp-content/uploads/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+      
+      </head>
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-MEFBXKEJRC"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+      
+        gtag('config', 'G-MEFBXKEJRC');
+      </script>
+      
+      
+        <!--***************************  HEADER GRIS ***********************************************-->
+      
+        <!-- Servicios -->
+        <div id="services">
+          <div class="indicator d-none d-md-block"></div>
+          <ul class="dropdown-menu" id="servicios" style="margin: 0px !important;">
+            <li>
+              <a href="https://smartkey.xertica.com/cloudkey/a/unal.edu.co/user/login" target="_blank" rel="noopener"><img
+              src="https://ciencias.bogota.unal.edu.co/wp-content/uploads/icnServEmail.png"
+              width="32"
+              height="32"
+              alt="Correo Electrónico">Correo Electrónico</a>
+            </li>
+            <li>
+              <a href="https://dninfoa.unal.edu.co" target="_blank" rel="noopener"><img
+              src="https://ciencias.bogota.unal.edu.co/wp-content/uploads/icnServSia.png"
+              width="32"
+              height="32"
+              alt="Dirección Nacional de Información Académica">DNINFOA - SIA</a>
+            </li>
+            <li>
+              <a href="http://bibliotecas.unal.edu.co" target="_blank" rel="noopener"><img src="https://ciencias.bogota.unal.edu.co/wp-content/uploads/icnServLibrary.png" width="32" height="32" alt="Biblioteca">Bibliotecas</a>
+            </li>
+            <li>
+              <a href="http://personal.unal.edu.co" target="_blank" rel="noopener"><img src="https://ciencias.bogota.unal.edu.co/wp-content/uploads/icnServCall.png" width="32" height="32" alt="Convocatorias">Convocatorias</a>
+            </li>
+            
+          </ul>
+        </div>
+        <!-- Header -->
+        <header id="unalTop" style="font-size: 1rem !important;background: rgba(72,68,68,.9058823529);">
+          <!-- Logo -->
+          <div class="logo">
+            <a href="https://unal.edu.co">
+      
+              <svg width="93%" height="93%">
+                <image
+                xlink:href="https://ciencias.bogota.unal.edu.co/wp-content/uploads/images/escudoUnal.svg"
+                width="100%"
+                height="100%"
+                class="hidden-print"
+                alt="Escudo de la Universidad Nacional de Colombia"/>
+              </svg>
+      
+      
+              <img src="https://ciencias.bogota.unal.edu.co/wp-content/uploads/escudoUnal_black.png" class="d-none d-print-block" alt="Escudo de la Universidad Nacional de Colombia"/>
+            </a>
+          </div>
+          <!-- Seal -->
+          <div class="seal">
+            <img
+            class="hidden-print"
+            alt="Escudo de la República de Colombia"
+            src="https://ciencias.bogota.unal.edu.co/wp-content/uploads/sealColombia.png"
+            width="66"
+            height="66"/>
+      
+            <img
+            class="d-none d-print-block"
+            alt="Escudo de la República de Colombia"
+            src="https://ciencias.bogota.unal.edu.co/wp-content/uploads/sealColombia_black.png"
+            width="66"
+            height="66"/>
+          </div>
+      
+          <!-- Menú superior -->
+          <div class="firstMenu d-none d-md-block">
+            <div class="content-fluid">
+              <nav class="navbar navbar-expand-md nav navbar-dark">
+                <!-- perfiles -->
+                <div class=" collapse navbar-collapse navbar-default" id="navbarSupportedContent">
+                  <nav id="profiles">
+                    <ul class="mr-auto nav justify-content-end">
+                    <!-- <ul class="navbar-nav mr-auto nav justify-content-end"> -->
+                      <li class="nav-item item_Aspirantes" style="padding: 7px 10px !important;">
+                        <a href="http://aspirantes.unal.edu.co">Aspirantes</a>
+                      </li>
+                      <li class="nav-item item_Estudiantes" style="padding: 7px 10px !important;">
+                        <a href="http://estudiantes.unal.edu.co">Estudiantes</a>
+                      </li>
+                      <li class="nav-item item_Egresados" style="padding: 7px 10px !important;">
+                        <a href="http://egresados.unal.edu.co">Egresados</a>
+                      </li>
+                      <li class="nav-item item_Docentes" style="padding: 7px 10px !important;">
+                        <a href="http://docentes.unal.edu.co">Docentes</a>
+                      </li>
+                      <li class="nav-item item_Administrativos" style="padding: 7px 10px !important;">
+                        <a href="http://administrativos.unal.edu.co">Administrativos</a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+                <!-- redes sociales -->
+                <ul class="socialLinks d-none d-md-block">
+                  <li >
+                  <a href="https://www.facebook.com/UNColombia" target="_blank" class="facebook" title="Página oficial en Facebook" rel="noopener"></a>
+                  </li>
+                  <li>
+                  <a href="https://twitter.com/UNColombia" target="_blank" class="twitter" title="Cuenta oficial en Twitter" rel="noopener"></a>
+                  </li>
+                  <li>
+                  <a href="https://www.youtube.com/channel/UCnE6Zj2llVxcvL5I38B0Ceg" target="_blank" class="youtube" title="Canal oficial de Youtube" rel="noopener"></a>
+                  </li>
+                  <li>
+                  <a href="http://agenciadenoticias.unal.edu.co/nc/sus/type/rss2.html" target="_blank" class="rss" title="Suscripción a canales de información RSS" rel="noopener"></a>
+                  </li>
+                </ul>
+                <!-- idioma 
+                <div class="collapse btn-group languageMenu d-none d-md-block">
+                  <div class="btn btn-default dropdown-toggle" data-toggle="dropdown">es<span class="caret"></span></div>
+                  <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a href="index.html#">EN - English</a></li>
+                    <li><a href="index.html#">GUC - Wayuunaiki</a></li>
+                    <li><a href="index.html#">PBB - Nasa yuwe</a></li>
+                  </ul>
+                </div>
+              -->
+              </nav>
+            </div>
+          </div>
+      
+          <!-- Menú inferior -->
+          <div id="bs-navbar" class="navigation d-none d-md-block">
+            <!-- Título del sitio -->
+            <div class="site-url" id="subdominio" style="font-size: 1.5rem !important;">
+              <a href="https://ciencias.bogota.unal.edu.co/">ciencias.bogota.unal.edu.co</a>
+            </div>
+            <!-- Buscador -->
+            <div class="buscador" id="buscador">
+              <div
+              class="gcse-searchbox-only"
+              data-resultsurl="https://unal.edu.co/resultados-de-la-busqueda/"
+              data-newwindow="true"></div>
+            </div>
+            <!-- Main menu -->
+      
+            <style>
+              @media (max-width: 768px) {
+                #container_subdominio_mobil {
+                  font-size: 1.1em !important;
+                  margin: 10px 0 5px 14px !important;
+                }
+              
+                #container_buscador_mobil{
+                    clear: both;
+                    left: 0;
+                    margin: 5px 2%;
+                    position: relative;
+                    top: 0 !important;
+                    width: 96% !important;
+                }
+                #pestania-accesibilidad{
+                    visibility: hidden;
+                }
+                .btn-group ul {
+                margin-left: 0 !important;
+                margin-top: 0 !important;
+                }
+
+                .btn-group {
+                  display: block;
+                }
+                
+                .btn-group:hover > .dropdown-menu,
+                .dropdown-submenu:hover > .dropdown-menu{
+                    display: none;
+                }
+                
+                .dropdown-menu.show {
+                    display: block !important;
+                    position: relative;
+                }
+
+                .dropdown-menu {
+                  margin-left: 0 !important;
+                  width: 100%;
+                } 
+
+                .dropdown-submenu>.dropdown-menu, .dropdown-submenu:hover>.dropdown-menu {
+                  display: block;
+                  position: relative;
+                  left: 0;
+                }
+              }
+            </style>
+      
+            <div class="navbar-dark mainMenu" id="main_menu_container">
+
+                <!-- Items menú principal -->
+                <div class="btn-group">
+                  <div class="btn dropdown-toggle" data-toggle="dropdown">La Facultad<span class="caret"></span></div>
+                  <div class="dropdown-menu">
+                      <a class="dropdown-item" href="https://ciencias.bogota.unal.edu.co/areas_curriculares/" target="_self" rel="noopener">Áreas Curriculares</a>  
+                      <a class="dropdown-item" href="https://ciencias.bogota.unal.edu.co/dependencias/" target="_self" rel="noopener">Dependencias </a>
+                      <a class="dropdown-item" href="https://ciencias.bogota.unal.edu.co/departamentos_e_institutos/" target="_self" rel="noopener">Departamentos e Institutos</a>
+                      <a class="dropdown-item" href="https://ciencias.bogota.unal.edu.co/directorio_docente/" target="_self" rel="noopener">Directorio Docente</a>                         
+                  </div>
+                </div>
+
+                <div class="btn-group">
+                  <button class="btn dropdown-toggle" data-toggle="dropdown">
+                    Estudia en la facultad <span class="caret"></span>
+                  </button>
+                  <div class="dropdown-menu">
+                    <!-- Submenú de Pregrados -->
+                    <div class="dropdown-submenu">
+                      <button class="dropdown-item dropdown-toggle">Pregrados</button>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="https://ciencias.bogota.unal.edu.co/estudiar_en_la_facultad/pregrados/biologia/">Biología</a>
+                        <a class="dropdown-item" href="https://ciencias.bogota.unal.edu.co/estudiar_en_la_facultad/pregrados/ciencias_de_la_computacion/">Ciencias de la Computación</a>
+                        <a class="dropdown-item" href="https://ciencias.bogota.unal.edu.co/estudiar_en_la_facultad/pregrados/estadistica/">Estadística</a>
+                        <a class="dropdown-item" href="https://ciencias.bogota.unal.edu.co/estudiar_en_la_facultad/pregrados/farmacia/">Farmacia</a>
+                        <a class="dropdown-item" href="https://ciencias.bogota.unal.edu.co/estudiar_en_la_facultad/pregrados/fisica/">Física</a>
+                        <a class="dropdown-item" href="https://ciencias.bogota.unal.edu.co/estudiar_en_la_facultad/pregrados/geologia/">Geología</a>
+                        <a class="dropdown-item" href="https://ciencias.bogota.unal.edu.co/estudiar_en_la_facultad/pregrados/matematicas/">Matemáticas</a>
+                        <a class="dropdown-item" href="https://ciencias.bogota.unal.edu.co/estudiar_en_la_facultad/pregrados/quimica/">Química</a>
+
+                      </div>
+                    </div>
+                    
+                    <!-- Submenú de Posgrados -->
+                    <div class="dropdown-submenu">
+                      <button class="dropdown-item dropdown-toggle">Posgrados</button>
+                      <div class="dropdown-menu">
+                        <!-- Especializaciones -->
+                        <a class="dropdown-item" href="https://ciencias.bogota.unal.edu.co/estudiar_en_la_facultad/posgrados/especializaciones/" target="_self" rel="noopener">Especializaciones</a>
+                        
+                        <!-- Doctorados -->
+                        <a class="dropdown-item" href="https://ciencias.bogota.unal.edu.co/estudiar_en_la_facultad/posgrados/doctorados/" target="_self" rel="noopener">Doctorados</a>
+                        
+                        <!-- Maestrías -->
+                        <a class="dropdown-item" href="https://ciencias.bogota.unal.edu.co/estudiar_en_la_facultad/posgrados/maestrias/" target="_self" rel="noopener">Maestrías</a>
+                      </div>
+                    </div>
+
+                    <a class="dropdown-item" href="https://ciencias.bogota.unal.edu.co/educacion_continua/cursos_diplomados_eventos/" target="_self" rel="noopener">Cursos, Diplomados y Eventos</a>                       
+
+                  </div>
+                </div>
+                
+                <!-- Investigación -->
+                <div class="btn-group">
+                  <div class="btn dropdown-toggle" data-toggle="dropdown">Investigación<span class="caret"></span></div>
+                  <div class="dropdown-menu">
+                      <div class="dropdown-submenu">
+                        <button class="dropdown-item dropdown-toggle">Laboratorios</button>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="https://ciencias.bogota.unal.edu.co/laboratorios/" target="_self" rel="noopener">Listado de Laboratorios</a>                       
+                          <a class="dropdown-item" href="https://ciencias.bogota.unal.edu.co/dependencias/coordinacion_laboratorios/" target="_self" rel="noopener">Coordinación de Laboratorios</a>
+                        </div>
+                      </div>
+                      <a class="dropdown-item" href="https://ciencias.bogota.unal.edu.co/grupos_de_investigacion/" target="_self" rel="noopener">Grupos de Investigación</a>                       
+                      
+                  </div>
+                </div>
+              
+                <!-- Investigación -->
+                <div class="btn-group">
+                  <div class="btn dropdown-toggle" data-toggle="dropdown">Extensión<span class="caret"></span></div>
+                  <div class="dropdown-menu">
+                      <a class="dropdown-item" href="https://ciencias.bogota.unal.edu.co/dependencias/vice_investigacion_y_extension/" target="_self" rel="noopener">Vicedecanatura de investigación y extensión</a>
+                      <a class="dropdown-item" href="https://ciencias.bogota.unal.edu.co/dependencias/coordinacion_extension/" target="_self" rel="noopener">Coordinación de Extensión</a>   
+                      <a class="dropdown-item" href="https://ciencias.bogota.unal.edu.co/dependencias/vice_investigacion_y_extension/convocatorias/" target="_self" rel="noopener">Convocatorias</a>                     
+                  </div>
+                </div>
+
+                <!-- Bienestar -->
+                <div class="btn-group">
+                  <a class="btn" href="https://ciencias.bogota.unal.edu.co/dependencias/bienestar/" target="_self" rel="noopener">Bienestar</a>
+                </div>
+
+                <div class="btn-group">
+                  <a class="btn" href="https://ciencias.bogota.unal.edu.co/dependencias/egresados" target="_self" rel="noopener">Egresados</a>
+                </div>
+
+                <!-- Bienestar -->
+                <div class="btn-group">
+                    <a class="btn" href="https://ciencias.bogota.unal.edu.co/concurso_docente_2025" target="_self" rel="noopener">Concurso Docente 2025</a>
+                </div>
+              
+              <!-- Sedes -->
+              <div class="btn-group menu_sedes">
+                <div class="btn btn-default dropdown-toggle" data-toggle="dropdown">Sedes<span class="caret"></span></div>
+                <ul class="dropdown-menu" id="sedes">
+                  <li>
+                    <a class="dropdown-item" href="http://amazonia.unal.edu.co" target="_blank" rel="noopener">Amazonia</a>
+                    <span class="caret-right"></span></li>
+                  <li>
+                    <a class="dropdown-item" href="http://bogota.unal.edu.co" target="_blank" rel="noopener">Bogotá</a>
+                    <span class="caret-right"></span></li>
+                  <li>
+                    <a class="dropdown-item" href="http://caribe.unal.edu.co" target="_blank" rel="noopener">Caribe</a>
+                    <span class="caret-right"></span></li>
+                  <li>
+                    <a class="dropdown-item" href="http://delapaz.unal.edu.co" target="_blank" rel="noopener">De La Paz</a>
+                    <span class="caret-right"></span></li>
+                  <li>
+                    <a class="dropdown-item" href="http://www.manizales.unal.edu.co" target="_blank" rel="noopener">Manizales</a>
+                    <span class="caret-right"></span></li>
+                  <li>
+                    <a class="dropdown-item" href="http://medellin.unal.edu.co" target="_blank" rel="noopener">Medellín</a>
+                    <span class="caret-right"></span></li>
+                  <li>
+                    <a class="dropdown-item" href="http://orinoquia.unal.edu.co" target="_blank" rel="noopener">Orinoquia</a>
+                    <span class="caret-right"></span></li>
+                  <li>
+                    <a class="dropdown-item" href="http://www.palmira.unal.edu.co" target="_blank" rel="noopener">Palmira</a>
+                    <span class="caret-right"></span></li>
+                  <li>
+                    <a class="dropdown-item" href="http://tumaco-pacifico.unal.edu.co" target="_blank" rel="noopener">Tumaco</a>
+                    <span class="caret-right"></span></li>
+                </ul>
+              </div>
+            </div>
+
+            <div style="display: none;" id="main_menu_container_contextual" class="navbar-dark mainMenu" >
+
+              <!-- Sedes -->
+              <div class="btn-group menu_sedes">
+                <div class="btn btn-default dropdown-toggle" data-toggle="dropdown">Sedes<span class="caret"></span></div>
+                <ul class="dropdown-menu" id="sedes">
+                  <li>
+                    <a class="dropdown-item" href="http://amazonia.unal.edu.co" target="_blank" rel="noopener">Amazonia</a>
+                    <span class="caret-right"></span></li>
+                  <li>
+                    <a class="dropdown-item" href="http://bogota.unal.edu.co" target="_blank" rel="noopener">Bogotá</a>
+                    <span class="caret-right"></span></li>
+                  <li>
+                    <a class="dropdown-item" href="http://caribe.unal.edu.co" target="_blank" rel="noopener">Caribe</a>
+                    <span class="caret-right"></span></li>
+                  <li>
+                    <a class="dropdown-item" href="http://delapaz.unal.edu.co" target="_blank" rel="noopener">De La Paz</a>
+                    <span class="caret-right"></span></li>
+                  <li>
+                    <a class="dropdown-item" href="http://www.manizales.unal.edu.co" target="_blank" rel="noopener">Manizales</a>
+                    <span class="caret-right"></span></li>
+                  <li>
+                    <a class="dropdown-item" href="http://medellin.unal.edu.co" target="_blank" rel="noopener">Medellín</a>
+                    <span class="caret-right"></span></li>
+                  <li>
+                    <a class="dropdown-item" href="http://orinoquia.unal.edu.co" target="_blank" rel="noopener">Orinoquia</a>
+                    <span class="caret-right"></span></li>
+                  <li>
+                    <a class="dropdown-item" href="http://www.palmira.unal.edu.co" target="_blank" rel="noopener">Palmira</a>
+                    <span class="caret-right"></span></li>
+                  <li>
+                    <a class="dropdown-item" href="http://tumaco-pacifico.unal.edu.co" target="_blank" rel="noopener">Tumaco</a>
+                    <span class="caret-right"></span></li>
+                </ul>
+              </div>
+            </div>
+
+            <script>
+              var jsonNombreUAC = {
+                "/biologia/": {
+                  "nombre": "Biología",
+                  "urls": [
+                    {
+                      "nombreAgrupamiento": "DepartamentoS e Institutos",
+                      "urls": [
+                        {"nombre": "Departamento de Biología", "value": "/departamentos_e_Institutos/biologia/"},
+                        {"nombre": "Instituto de Ciencias Naturales", "value": "/departamentos_e_Institutos/instituto_de_ciencias_naturales/"},
+                        {"nombre": "Directorio docente", "value": "/directorio_docente/biologia"}
+                      ]
+                    },
+                    {
+                      "nombreAgrupamiento": "Programas Académicos",
+                      "urls": [
+                        {"nombre": "Área Curricular de Biología", "value": "/areas_curriculares/biologia"},
+                        {"nombre": "Pregrado en Biología", "value": "/estudiar_en_la_facultad/pregrados/biologia"},
+                        {"nombre": "Maestría en Ciencias - Biología", "value": "/estudiar_en_la_facultad/posgrados/maestrias/biologia"},
+                        {"nombre": "Doctorado en Ciencias - Biología", "value": "/estudiar_en_la_facultad/posgrados/doctorados/biologia"}
+                      ]
+                    },
+                    {
+                      "nombreAgrupamiento": "Investigación",
+                      "urls": [
+                        {"nombre": "Laboratorios", "value": "/laboratorios/biologia"},
+                        {"nombre": "Grupos de investigación", "value": "/grupos_de_investigacion/biologia/"},
+                        {"nombre": "Nuestros servicios", "value": "/servicios_de_laboratorios/nuestros_servicios/biologia"}
+                      ]
+                    }
+                  ]
+                },
+                "estadistica": {
+                  "nombre": "Estadística",
+                  "urls": [
+                    {
+                      "nombreAgrupamiento": "Departamento de Estadística",
+                      "urls": [
+                        {"nombre": "Mas información", "value": "/departamentos_e_Institutos/estadistica"},
+                        {"nombre": "Directorio docente", "value": "/directorio_docente/estadistica"}
+                      ]
+                    },
+                    {
+                      "nombreAgrupamiento": "Programas Académicos",
+                      "urls": [
+                        {"nombre": "Área Curricular de Estadística", "value": "/areas_curriculares/estadistica"},
+                        {"nombre": "Pregrado en Estadística", "value": "/estudiar_en_la_facultad/pregrados/estadistica"},
+                        {"nombre": "Maestría en Ciencias - Estadística", "value": "/estudiar_en_la_facultad/posgrados/maestrias/estadistica"},
+                        {"nombre": "Doctorado en Ciencias - Estadística", "value": "/estudiar_en_la_facultad/posgrados/doctorados/estadistica"},
+                        {"nombre": "Especialización en Estadística", "value": "/estudiar_en_la_facultad/posgrados/especializaciones/especializacion_en_estadistica/"}
+                      ]
+                    },
+                    {
+                      "nombreAgrupamiento": "Investigación",
+                      "urls": [
+                        {"nombre": "Grupos de investigación", "value": "/grupos_de_investigacion/estadistica/"}                      ]
+                    }
+                  ]
+                },
+                "farmacia": {
+                  "nombre": "Farmacia",
+                  "urls": [
+                    {
+                      "nombreAgrupamiento": "Departamento de Farmacia",
+                      "urls": [
+                        {"nombre": "Mas información", "value": "/departamentos_e_Institutos/farmacia"},
+                        {"nombre": "Directorio docente", "value": "/directorio_docente/farmacia"}
+                      ]
+                    },
+                    {
+                      "nombreAgrupamiento": "Programas Académicos",
+                      "urls": [
+                        {"nombre": "Área Curricular de Farmacia", "value": "/areas_curriculares/farmacia"},
+                        {"nombre": "Pregrado en Farmacia", "value": "/estudiar_en_la_facultad/pregrados/farmacia"},
+                        {"nombre": "Maestría en Ciencias Farmacéuticas", "value": "/estudiar_en_la_facultad/posgrados/maestrias/ciencias_farmaceuticas"},
+                        {"nombre": "Maestría en Ciencias - Farmacología", "value": "/estudiar_en_la_facultad/posgrados/maestrias/farmacologia"},
+                        {"nombre": "Doctorado en Ciencias Farmacéuticas", "value": "/estudiar_en_la_facultad/posgrados/doctorados/ciencias_farmaceuticas"},
+                        {"nombre": "Especialización en Ciencia y Tecnología Cosmética", "value": "/estudiar_en_la_facultad/posgrados/especializaciones/ciencia_y_tecnologia_cosmetica/"}
+                      ]
+                    },
+                    {
+                      "nombreAgrupamiento": "Investigación",
+                      "urls": [
+                        {"nombre": "Laboratorios", "value": "/laboratorios/farmacia"},
+                        {"nombre": "Grupos de investigación", "value": "/grupos_de_investigacion/farmacia/"},
+                        {"nombre": "Nuestros servicios", "value": "/servicios_de_laboratorios/nuestros_servicios/farmacia"}
+                      ]
+                    }
+                  ]
+                },
+                "quimica": {
+                  "nombre": "Química",
+                  "urls": [
+                    {
+                      "nombreAgrupamiento": "Departamento de Química",
+                      "urls": [
+                        {"nombre": "Mas información", "value": "/departamentos/quimica"},
+                        {"nombre": "Directorio docente", "value": "/directorio_docente/quimica"}
+                      ]
+                    },
+                    {
+                      "nombreAgrupamiento": "Programas Académicos",
+                      "urls": [
+                        {"nombre": "Área Curricular de Química", "value": "/areas_curriculares/quimica"},
+                        {"nombre": "Pregrado en Química", "value": "/estudiar_en_la_facultad/pregrados/quimica"},
+                        {"nombre": "Maestría en Ciencias - Bioquímica", "value": "/estudiar_en_la_facultad/posgrados/maestrias/bioquimica/"},
+                        {"nombre": "Maestría en Ciencias - Química (Investigación)", "value": "/estudiar_en_la_facultad/posgrados/maestrias/quimica_investigacion/"},
+                        {"nombre": "Maestría en Ciencias - Química (Profundización)", "value": "/estudiar_en_la_facultad/posgrados/maestrias/quimica_profundizacion/"},
+                        {"nombre": "Doctorado en Ciencias - Bioquímica", "value": "/estudiar_en_la_facultad/posgrados/doctorados/bioquimica/"},
+                        {"nombre": "Doctorado en Ciencias - Química", "value": "/estudiar_en_la_facultad/posgrados/doctorados/quimica/"},
+                      ]
+                    },
+                    {
+                      "nombreAgrupamiento": "Investigación",
+                      "urls": [
+                        {"nombre": "Laboratorios", "value": "/laboratorios/quimica"},
+                        {"nombre": "Grupos de investigación", "value": "/grupos_de_investigacion/quimica/"},
+                        {"nombre": "Nuestros servicios", "value": "/servicios_de_laboratorios/nuestros_servicios/quimica"}
+                      ]
+                    }
+                  ]
+                },
+                "geociencias": {
+                  "nombre": "Geociencias",
+                  "urls": [
+                    {
+                      "nombreAgrupamiento": "Departamento de Geociencias",
+                      "urls": [
+                        {"nombre": "Mas información", "value": "/departamentos_e_Institutos/geociencias"},
+                        {"nombre": "Directorio docente", "value": "/directorio_docente/geociencias"}
+                      ]
+                    },
+                    {
+                      "nombreAgrupamiento": "Programas Académicos",
+                      "urls": [
+                        {"nombre": "Área Curricular de Geociencias", "value": "/areas_curriculares/geociencias"},
+                        {"nombre": "Pregrado en Geología", "value": "/estudiar_en_la_facultad/pregrados/geologia"},
+                        {"nombre": "Maestría en Ciencias - Geofísica", "value": "/estudiar_en_la_facultad/posgrados/maestrias/geofisica"},
+                        {"nombre": "Maestría en Ciencias - Geología", "value": "/estudiar_en_la_facultad/posgrados/maestrias/geologia"},
+                        {"nombre": "Maestría en Ciencias - Meteorología", "value": "/estudiar_en_la_facultad/posgrados/maestrias/meteorologia"},
+                        {"nombre": "Doctorado en Ciencias - Geociencias", "value": "/estudiar_en_la_facultad/posgrados/doctorados/geociencias"},
+                      ]
+                    },
+                    {
+                      "nombreAgrupamiento": "Investigación",
+                      "urls": [
+                        {"nombre": "Laboratorios", "value": "/laboratorios/geociencias"},
+                        {"nombre": "Grupos de investigación", "value": "/grupos_de_investigacion/geociencias/"},
+                        {"nombre": "Nuestros servicios", "value": "/servicios_de_laboratorios/nuestros_servicios/geociencias"}
+                      ]
+                    }
+                  ]
+                },
+                "matematicas": {
+                  "nombre": "Matemáticas",
+                  "urls": [
+                    {
+                      "nombreAgrupamiento": "Departamento de Matemáticas",
+                      "urls": [
+                        {"nombre": "Mas información", "value": "/departamentos_e_Institutos/matematicas"},
+                        {"nombre": "Directorio docente", "value": "/directorio_docente/matematicas"}
+                      ]
+                    },
+                    {
+                      "nombreAgrupamiento": "Programas Académicos",
+                      "urls": [
+                        {"nombre": "Área Curricular de Matemáticas", "value": "/areas_curriculares/matematicas"},
+                        {"nombre": "Pregrado en Matemáticas", "value": "/estudiar_en_la_facultad/pregrados/matematicas"},
+                        {"nombre": "Pregrado en Ciencias de la Computación", "value": "/estudiar_en_la_facultad/pregrados/ciencias_de_la_computacion"},
+                        {"nombre": "Maestría en Ciencias - Matemática Aplicada", "value": "/estudiar_en_la_facultad/posgrados/maestrias/matematica_aplicada"},
+                        {"nombre": "Maestría en Ciencias - Matemáticas", "value": "/estudiar_en_la_facultad/posgrados/maestrias/matematicas"},
+                        {"nombre": "Maestría en Actuaría y Finanzas", "value": "/estudiar_en_la_facultad/posgrados/maestrias/actuaria_y_finanzas"},
+                        {"nombre": "Doctorado en Ciencias - Matemáticas", "value": "/estudiar_en_la_facultad/posgrados/doctorados/matematicas"},
+                      ]
+                    },
+                    {
+                      "nombreAgrupamiento": "Investigación",
+                      "urls": [
+                        {"nombre": "Grupos de investigación", "value": "/grupos_de_investigacion/matematicas/"}
+                      ]
+                    }
+                  ]
+                },
+                "ciencias_de_la_computacion": {
+                  "nombre": "Matemáticas",
+                  "urls": [
+                    {
+                      "nombreAgrupamiento": "Departamento de Matemáticas",
+                      "urls": [
+                        {"nombre": "Mas información", "value": "/departamentos_e_Institutos/matematicas"},
+                        {"nombre": "Directorio docente", "value": "/directorio_docente/matematicas"}
+                      ]
+                    },
+                    {
+                      "nombreAgrupamiento": "Programas Académicos",
+                      "urls": [
+                        {"nombre": "Área Curricular de Matemáticas", "value": "/areas_curriculares/matematicas"},
+                        {"nombre": "Pregrado en Matemáticas", "value": "/estudiar_en_la_facultad/pregrados/matematicas"},
+                        {"nombre": "Pregrado en Ciencias de la Computación", "value": "/estudiar_en_la_facultad/pregrados/ciencias_de_la_computacion"},
+                        {"nombre": "Maestría en Ciencias - Matemática Aplicada", "value": "/estudiar_en_la_facultad/posgrados/maestrias/matematica_aplicada"},
+                        {"nombre": "Maestría en Ciencias - Matemáticas", "value": "/estudiar_en_la_facultad/posgrados/maestrias/matematicas"},
+                        {"nombre": "Maestría en Actuaría y Finanzas", "value": "/estudiar_en_la_facultad/posgrados/maestrias/actuaria_y_finanzas"},
+                        {"nombre": "Doctorado en Ciencias - Matemáticas", "value": "/estudiar_en_la_facultad/posgrados/doctorados/matematicas"},
+                      ]
+                    },
+                    {
+                      "nombreAgrupamiento": "Investigación",
+                      "urls": [
+                        {"nombre": "Grupos de investigación", "value": "/grupos_de_investigacion/ciencias_de_la_computacion/"}
+                      ]
+                    }
+                  ]
+                },
+                "instituto_de_ciencias_naturales": {
+                  "nombre": "Instituto de Ciencias Naturales",
+                  "urls": [
+                    {
+                      "nombreAgrupamiento": "Instituto de Ciencias Naturales",
+                      "urls": [
+                        {"nombre": "Mas información", "value": "/departamentos_e_Institutos/instituto_de_ciencias_naturales"},
+                        {"nombre": "Directorio docente", "value": "/directorio_docente/instituto_ciencias_naturales/"}
+                      ]
+                    },
+                    {
+                      "nombreAgrupamiento": "Investigación",
+                      "urls": [
+                        {"nombre": "Laboratorios", "value": "/laboratorios/instituto_de_ciencias_naturales"}                      ]
+                    }
+                  ]
+                },
+                "astronomia": {
+                  "nombre": "Astronomía",
+                  "urls": [
+                    {
+                      "nombreAgrupamiento": "Departamento de Astronomía",
+                      "urls": [
+                        {"nombre": "Mas información", "value": "/departamentos_e_Institutos/observatorio_astronomico_nacional/"},
+                        {"nombre": "Directorio docente", "value": "/directorio_docente/observatorio_astronomico_nacional/"}
+                      ]
+                    },
+                    {
+                      "nombreAgrupamiento": "Programas Académicos",
+                      "urls": [
+                        {"nombre": "Área Curricular de Astronomía", "value": "/areas_curriculares/astronomia"},
+                        {"nombre": "Maestría en Astronomía", "value": "/estudiar_en_la_facultad/posgrados/maestrias/astronomia"},
+                        {"nombre": "Doctorado en Ciencias - Astronomía", "value": "/estudiar_en_la_facultad/posgrados/doctorados/astronomia"}
+                      ]
+                    },
+                    {
+                      "nombreAgrupamiento": "Investigación",
+                      "urls": [
+                        {"nombre": "Laboratorios", "value": "/laboratorios/observatorio_astronomico_nacional"},
+                        {"nombre": "Grupos de investigación", "value": "/grupos_de_investigacion/astronomia/"}
+                      ]
+                    }
+                  ]
+                },
+                "fisica/" : {
+                  "nombre": "Física",
+                  "urls": [
+                    {
+                      "nombreAgrupamiento": "Departamento de Física",
+                      "urls": [
+                        {"nombre": "Mas información", "value": "/departamentos_e_Institutos/fisica"},
+                        {"nombre": "Directorio docente", "value": "/directorio_docente/fisica"}
+                      ]
+                    },
+                    {
+                      "nombreAgrupamiento": "Programas Académicos",
+                      "urls": [
+                        {"nombre": "Área Curricular de Física", "value": "/areas_curriculares/fisica"},
+                        {"nombre": "Pregrado en Física", "value": "/estudiar_en_la_facultad/pregrados/fisica"},
+                        {"nombre": "Maestría en Ciencias - Física", "value": "/estudiar_en_la_facultad/posgrados/maestrias/fisica"},
+                        {"nombre": "Maestría en Ciencias - Física Médica", "value": "/estudiar_en_la_facultad/posgrados/maestrias/fisica_medica"},
+                        {"nombre": "Doctorado en Ciencias - Física", "value": "/estudiar_en_la_facultad/posgrados/doctorados/fisica"}
+                      ]
+                    },
+                    {
+                      "nombreAgrupamiento": "Investigación",
+                      "urls": [
+                        {"nombre": "Laboratorios", "value": "/laboratorios/fisica"},
+                        {"nombre": "Grupos de investigación", "value": "/grupos_de_investigacion/fisica/"},
+                        {"nombre": "Nuestros servicios", "value": "/servicios_de_laboratorios/nuestros_servicios/fisica"}
+                      ]
+                    }
+                  ]
+                },
+                "interfacultades":{
+                  "nombre": "Interfacultades",
+                  "urls": [
+                    {
+                      "nombreAgrupamiento": "Programas Académicos",
+                      "urls": [
+                        {"nombre": "Área Curricular de Interfacultades", "value": "/areas_curriculares/interfacultades"},
+                        {"nombre": "Maestría en Ciencias - Biotecnología", "value": "/estudiar_en_la_facultad/posgrados/maestrias/biotecnologia"},
+                        {"nombre": "Doctorado en Ciencias - Biotecnología", "value": "/estudiar_en_la_facultad/posgrados/doctorados/biotecnologia"},
+                        {"nombre": "Maestría en Ciencias - Microbiología",  "value" : "/estudiar_en_la_facultad/posgrados/maestrias/microbiologia/"}
+                      ]
+                    }
+                  ]
+                }
+              };
+
+              jsonNombreUAC["geologia"] = jsonNombreUAC["geociencias"];
+              jsonNombreUAC["meteorologia"] = jsonNombreUAC["geociencias"];
+              jsonNombreUAC["geofisica"] = jsonNombreUAC["geociencias"];
+              jsonNombreUAC["fisica_medica"] = jsonNombreUAC["fisica/"];
+              jsonNombreUAC["observatorio_astronomico_nacional"] = jsonNombreUAC["astronomia"];
+              jsonNombreUAC["ciencias_farmaceuticas"] = jsonNombreUAC["farmacia"];
+              jsonNombreUAC["farmacologia"] = jsonNombreUAC["farmacia"];
+              jsonNombreUAC["biotecnologia"] = jsonNombreUAC["interfacultades"];
+              jsonNombreUAC["bioquimica"] = jsonNombreUAC["interfacultades"];
+              jsonNombreUAC["microbiologia"]  = jsonNombreUAC["interfacultades"];
+              jsonNombreUAC["ciencia_y_tecnologia_cosmetica"] = jsonNombreUAC["farmacia"];
+              jsonNombreUAC["actuaria_y_finanzas"] = jsonNombreUAC["matematicas"];
+              jsonNombreUAC["matematica_aplicada"] = jsonNombreUAC["matematicas"];
+              var url = window.location.href;
+
+              var arrayUAC= Object.keys(jsonNombreUAC);
+              var encontrado = false;
+              var UABEncontrada = "";
+              for (var i = 0; i < arrayUAC.length; i++) {
+                if (url.indexOf(arrayUAC[i]) > -1) {
+                  encontrado = true;
+                  UABEncontrada = arrayUAC[i];
+                  break;
+                }
+              }
+
+              var botonVOlver = {"nombre": "Página principal", "value": "/"};
+              
+              
+              if(encontrado){
+                jsonNombreUAC[UABEncontrada]["urls"].unshift(botonVOlver);
+                document.getElementById("main_menu_container").style.display = "none";
+                document.getElementById("main_menu_container_contextual").style.display = "block";
+
+                var nuevoContenido = "";
+                var contenidoViejo = document.getElementById("main_menu_container_contextual").innerHTML;
+                for (var i = 0; i < Object.keys(jsonNombreUAC[UABEncontrada]["urls"]).length; i++) {
+                  nuevoContenido += insertarElementoMenu(jsonNombreUAC[UABEncontrada]["urls"][i]);
+                }
+                document.getElementById("main_menu_container_contextual").innerHTML = nuevoContenido + contenidoViejo;
+              }
+
+              function insertarElementoMenu(elemntoObjeto, depth = 0){
+                depth++;
+                let nombreAgrupamiento = elemntoObjeto["nombreAgrupamiento"];
+
+                if(nombreAgrupamiento){
+                  let elementoHijo = "";
+                  let elementoHtml = "";
+                  for (var i = 0; i < Object.keys(elemntoObjeto["urls"]).length; i++) {
+                    elementoHijo += insertarElementoMenu(elemntoObjeto["urls"][i], depth);
+                    elementoHtml = `<div class="btn-group">
+                      <div class="btn dropdown-toggle" data-toggle="dropdown">${nombreAgrupamiento}<span class="caret"></span></div>
+                      <div class="dropdown-menu">
+                        ${elementoHijo}                     
+                      </div>
+                    </div>`;  
+                  }
+                  return elementoHtml;
+                }else {
+                  let url = elemntoObjeto["value"];
+                  let nombre = elemntoObjeto["nombre"];
+                  if(depth > 1){
+                    return `<a class="dropdown-item" href="https://ciencias.bogota.unal.edu.co${url}" target="_self" rel="noopener">${nombre}</a>`;
+                  }else{
+                    return `<div class="btn-group">
+                          <a class="btn" href="https://ciencias.bogota.unal.edu.co${url}" target="_self" rel="noopener">${nombre}</a>
+                        </div>`;
+                  }
+                }
+              }
+            </script>
+
+
+            <!-- Servicios label -->
+            <div class="btn-group d-none">
+              <div
+                class="btn btn-default dropdown-toggle"
+                data-toggle="dropdown"
+                id="navbarSupportedContent"
+                data-target="#services">Servicios<span class="caret"></span>
+              </div>
+            </div>
+            <!-- Perfiles -->
+            <div class="btn-group d-none">
+              <div
+                class="btn btn-default dropdown-toggle"
+                data-toggle="dropdown"
+                id="navbarSupportedContent"
+                data-target="#profiles">Perfiles<span class="caret"></span>
+              </div>
+            </div>
+          </div>
+      
+          <!--Navbar-->
+          <nav class="navbar navbar-light light-blue lighten-4 main_menu">
+            <!-- Navbar brand -->
+            <a class="navbar-brand d-block d-md-none" href="#"></a>
+      
+            <!-- Collapse button -->
+            <button
+              class="navbar-toggler collapsed d-block d-md-none"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbar_content"
+              aria-controls="navbar_content"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              id="btn_hamburguer">
+              <!-- <span class="navbar-toggler-icon"></span> -->
+            </button>
+      
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="navbar_content">
+              <!-- subdominio -->
+              <div class="site-url" id="container_subdominio_mobil"></div>
+              <!-- buscador -->
+              <div class="buscador" id="container_buscador_mobil"></div>
+              <!-- main -->
+              <div id="container_mainmenu_mobil"></div>
+              <!-- Sedes -->
+              <div class="btn-group d-block d-md-none hidden-print">
+                      <div class="btn btn-default dropdown-toggle" data-toggle="collapse" data-target="#container_sedes_mobil" aria-controls="container_sedes_mobil">Sedes<span class="caret"> </span>
+                      </div>
+                  </div>
+              <div class="collapse" id="container_sedes_mobil"></div>
+      
+              <!-- Servicios -->
+              <div class="btn-group d-block d-md-none hidden-print">
+                      <div class="btn btn-default dropdown-toggle" data-toggle="collapse" data-target="#container_servicios_mobil" aria-controls="container_servicios_mobil">Servicios<span class="caret"> </span>
+                      </div>
+                  </div>
+              <div class="collapse" id="container_servicios_mobil"></div>
+      
+      
+              <!-- Perfiles -->
+              <div class="btn-group d-block d-md-none hidden-print">
+                      <div class="btn btn-default dropdown-toggle" data-toggle="collapse" data-target="#container_profiles_mobil" aria-controls="container_profiles_mobil">Perfiles<span class="caret"> </span>
+                      </div>
+                  </div>
+              <div class="collapse" id="container_profiles_mobil"></div>
+      
+            </div>
+            <!-- Collapsible content -->
+      
+          </nav>
+      
+        </header>
+      
+      <!-- defaultpanel -->
+      
+      <!-- Panel de accesibilidad -->
+      <div class="tx-unal-accesibilidad" style="font-size: 1rem !important;">
+        <!-- defaultpanel -->
+        <div
+          id="panel-accesibilidad"
+          style="display:none"
+          class="panel-content container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="row">
+                <div class="col-md-3 ">
+                  <h4>Tamaño letra</h4>
+                  <button
+                    class="boton-panel"
+                    id="letra-disminuir"
+                    onclick="cambiarTamanioLetra('-')"
+                    type="submit"
+                    name=""
+                    value="">A<sup>-</sup>
+                  </button>
+                  <button
+                    class="boton-panel"
+                    id="letra-aumentar"
+                    onclick="cambiarTamanioLetra('+')"
+                    type="submit"
+                    name=""
+                    value="">
+                    A<sup>+</sup>
+                  </button>
+                  <input
+                    disabled="1"
+                    class="letras-porcentaje"
+                    id="letter-percent"
+                    type="text"
+                    name=""
+                    value="100%">
+                </div>
+                <div class="col-md-3 ">
+                  <h4>Cambiar Contrastes</h4>
+                  <button
+                    class="boton-panel"
+                    id="contraste-1"
+                    onclick="cambiarContrastes(1)"
+                    type="submit"
+                    name=""
+                    value="">1
+                  </button>
+                  <button
+                    class="boton-panel"
+                    id="contraste-2"
+                    onclick="cambiarContrastes(2)"
+                    type="submit"
+                    name=""
+                    value="">2
+                  </button>
+                  <button
+                    class="boton-panel"
+                    id="contrate-3"
+                    onclick="cambiarContrastes(3)"
+                    type="submit"
+                    name=""
+                    value="">3
+                  </button>
+                </div>
+                <div class="col-md-3 ">
+                  <h4>Invertir colores</h4>
+                  <button
+                    class="boton-panel"
+                    id="inversor"
+                    onclick="invertirColores()"
+                    type="submit"
+                    name=""
+                    value="">Aplicar
+                  </button>
+                </div>
+                <div class="col-md-3">
+                  <h4>Restablecer ajustes</h4>
+                  <button
+                    class="boton-panel"
+                    id="defaul-config"
+                    onclick="defaultConfig()"
+                    type="submit"
+                    name=""
+                    value="">
+                    Aplicar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /content wrapper for padding -->
+        <div id="pestania-accesibilidad" class="" style="
+        margin-bottom: -38px;
+        float: right;
+        cursor: pointer;
+        background-color: rgba(41, 41, 41, 0.8);
+        color: #fff;
+        height: 35px;
+        line-height: 35px;
+        margin-right: 95px;
+        font-weight: bold;
+        padding: 0 10px;
+        position: relative;
+        z-index: 2;
+      ">Panel de Accesibilidad</div>
+      </div>
+      
+          <!--*************************** FIN HEADER GRIS ***********************************************-->
+</body>
+</html>
