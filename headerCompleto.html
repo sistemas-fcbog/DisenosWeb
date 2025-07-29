@@ -7,6 +7,24 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
 
     <style>
+
+      .dropdown-submenu {
+        position: relative;
+      }
+
+      .dropdown-submenu .dropdown-menu {
+        position: absolute;
+        top: 0;
+        left: 100%;
+        margin-top: 0;
+        z-index: 1050;
+        display: none;
+      }
+
+      .dropdown-submenu:hover > .dropdown-menu {
+        display: block;
+      }
+
       .btn-group:hover>.dropdown-menu {
         display: block;
         margin-top: 0;
@@ -327,15 +345,16 @@
                 <div class="btn-group">
                   <div class="btn dropdown-toggle" data-toggle="dropdown">Investigación<span class="caret"></span></div>
                   <div class="dropdown-menu">
-                      <div class="dropdown-submenu">
-                        <button class="dropdown-item dropdown-toggle">Laboratorios</button>
-                        <div class="dropdown-menu">
-                          <a class="dropdown-item" href="https://ciencias.bogota.unal.edu.co/laboratorios/" target="_self" rel="noopener">Listado de Laboratorios</a>                       
-                          <a class="dropdown-item" href="https://ciencias.bogota.unal.edu.co/dependencias/coordinacion_laboratorios/" target="_self" rel="noopener">Coordinación de Laboratorios</a>
-                        </div>
+                    <a class="dropdown-item" href="https://ciencias.bogota.unal.edu.co/dependencias/vice_investigacion_y_extension/" target="_self" rel="noopener">Vicedecanatura de investigación y extensión</a>                       
+                    <a class="dropdown-item" href="https://ciencias.bogota.unal.edu.co/dependencias/vice_investigacion_y_extension/convocatorias/" target="_self" rel="noopener">Convocatorias</a>                     
+                    <a class="dropdown-item" href="https://ciencias.bogota.unal.edu.co/grupos_de_investigacion/" target="_self" rel="noopener">Grupos de Investigación</a>    
+                    <div class="dropdown-submenu">
+                      <button class="dropdown-item dropdown-toggle">Laboratorios</button>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="https://ciencias.bogota.unal.edu.co/laboratorios/" target="_self" rel="noopener">Listado de Laboratorios</a>                       
+                        <a class="dropdown-item" href="https://ciencias.bogota.unal.edu.co/dependencias/coordinacion_laboratorios/" target="_self" rel="noopener">Coordinación de Laboratorios</a>
                       </div>
-                      <a class="dropdown-item" href="https://ciencias.bogota.unal.edu.co/grupos_de_investigacion/" target="_self" rel="noopener">Grupos de Investigación</a>                       
-                      
+                    </div>
                   </div>
                 </div>
               
@@ -343,10 +362,9 @@
                 <div class="btn-group">
                   <div class="btn dropdown-toggle" data-toggle="dropdown">Extensión<span class="caret"></span></div>
                   <div class="dropdown-menu">
-                      <a class="dropdown-item" href="https://ciencias.bogota.unal.edu.co/dependencias/vice_investigacion_y_extension/" target="_self" rel="noopener">Vicedecanatura de investigación y extensión</a>
                       <a class="dropdown-item" href="https://ciencias.bogota.unal.edu.co/dependencias/coordinacion_extension/" target="_self" rel="noopener">Coordinación de Extensión</a>   
-                      <a class="dropdown-item" href="https://ciencias.bogota.unal.edu.co/dependencias/vice_investigacion_y_extension/convocatorias/" target="_self" rel="noopener">Convocatorias</a>                     
-                  </div>
+                      <a class="dropdown-item" href="https://ciencias.bogota.unal.edu.co/educacion_continua/cursos_diplomados_eventos/" target="_self" rel="noopener">Cursos de educación continua y eventos</a>
+                    </div>
                 </div>
 
                 <!-- Bienestar -->
